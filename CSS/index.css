@@ -1,0 +1,15 @@
+.clear{
+    animation: colorWords 1s linear infinite;
+    color: red;
+}
+@keyframes colorWords {
+    from{filter: hue-rotate(0deg);}
+    to{filter: hue-rotate(360deg);}
+}
+.slowed{
+    animation: blink .5s linear infinite;
+}
+@keyframes blink {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
