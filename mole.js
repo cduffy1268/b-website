@@ -57,7 +57,7 @@ function setMole(){
         currentMoleTile.innerHTML = "";
     } 
     let mole = document.createElement("img");
-    mole.src = "/photos/monty-mole.png";
+    mole.src = "monty-mole.png";
 
     let num = getRandomTile();
     if(currentEvilTile && currentEvilTile.id == num){
@@ -79,7 +79,7 @@ function setEvil(){
         currentEvilTile.innerHTML = "";
     }
     let evil = document.createElement("img");
-    evil.src = "/photos/evil_mob.png";
+    evil.src = "evil_mob.png";
 
     let num = getRandomTile();
     if (currentMoleTile && currentMoleTile.id == num) {
