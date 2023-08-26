@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: url(/photos/gaming-wallpapers-for-desktop-1.jpg);
+    background: url(gaming-wallpapers-for-desktop-1.jpg);
     background-size: cover;
     text-align: center;
     background-size: cover;
@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-wrap: wrap;
 
-    background: url(/photos/soil.png);
+    background: url(soil.png);
     background-size: cover;
     border: 3px solid white;
     border-radius: 25px;
@@ -22,7 +22,7 @@ body{
 #board div{
     width:180px;
     height:180px;
-    background: url(/photos/pipe.png);
+    background: url(pipe.png);
     background-size: cover;
 }
 
